@@ -52,6 +52,9 @@ export class Game {
     }, 1000 / 15);
   }
 
+  /**
+   * get canvas context
+   */
   _setContext() {
     this._context = this._gameCanvas.getContext("2d");
   }
